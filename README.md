@@ -8,7 +8,7 @@ Protein structure prediction is an important area of bioinformatics and computat
 
 Specifically, we look at using (for classification) the:
 
-- Non-parametric k-nearest neighbors algorithm
+- Non-parametric k-nearest neighbours algorithm
 - Non-parametric random forests
 - Parametric neural networks
 
