@@ -8,10 +8,16 @@ Protein structure prediction is an important area of bioinformatics and computat
 
 Specifically, we look at using (for classification) the:
 
-- Non-parametric k-nearest neighbours algorithm
+- Non-parametric $k$-nearest neighbours
 - Non-parametric random forests
 - Parametric neural networks
 
 ## Dataset
 
 The dataset used is a subset of the [RCSB Protein Data Bank](https://www.rcsb.org/), obtained jointly using various programs by [@alfrandom](https://www.kaggle.com/alfrandom) and [@kirkdco](https://www.kaggle.com/kirkdco). The dataset can be found [here](https://www.kaggle.com/datasets/kirkdco/protein-secondary-structure-2022?select=2022-08-03-ss.cleaned.csv). After some processing, we filtered the dataset by selecting proteins that had length in range [16, 100]. The filtered dataset containing the protein sequences for this study can be found [here](../main/datasets/prot-seq-filtered.csv).
+
+## $k$-nearest neighbours
+
+## Random Forests
+
+## Neural Networks
