@@ -18,12 +18,12 @@ The dataset used is a subset of the [RCSB Protein Data Bank](https://www.rcsb.or
 
 ## $k$-nearest neighbours
 
-$k$-nearest neighbours ($k$-NN) is a non-parametric machine learning algorithm, which is also a type of lazy learning algorithm. The algorithm classifies data by assigning labels to observations based on the majority class amongst their "$k$-nearest neighbours". We construct models based on $k$-NN, and the related work can be found in the [k-nearest-neighbours](../tree/main/k-nearest-neighbours) folder.
+$k$-nearest neighbours ($k$-NN) is a non-parametric machine learning algorithm, which is also a type of lazy learning algorithm. The algorithm classifies data by assigning labels to observations based on the majority class amongst their "$k$-nearest neighbours". We construct models based on $k$-NN, and the related work can be found in the [k-nearest-neighbours](../main/k-nearest-neighbours) folder.
 
 ## Random Forests
 
-Random forests is a non-parametric machine learning algorithm and a type of ensemble method. The random forests algorithm works by constructing a multitude of decision trees during the training phase. We construct models based on random forests, and the related work can be found in the [random-forests](../tree/main/random-forests/) folder.
+Random forests is a non-parametric machine learning algorithm and a type of ensemble method. The random forests algorithm works by constructing a multitude of decision trees during the training phase. We construct models based on random forests, and the related work can be found in the [random-forests](../main/random-forests/) folder.
 
 ## Neural Networks
 
-Artificial neural networks are parametric machine learning algorithms that try to mimic the way information is processed in the brain. The idea is to create models of biological neurons that have connections between nodes, with weights attached. These weights are to be optimised through the use of methods such as gradient descent with backpropagation. We construct models based on neural networks, and the related work can be found in the [neural-networks](../tree/main/neural-networks/) folder.
+Artificial neural networks are parametric machine learning algorithms that try to mimic the way information is processed in the brain. The idea is to create models of biological neurons that have connections between nodes, with weights attached. These weights are to be optimised through the use of methods such as gradient descent with backpropagation. We construct models based on neural networks, and the related work can be found in the [neural-networks](../main/neural-networks/) folder.
