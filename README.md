@@ -18,7 +18,7 @@ The dataset used is a subset of the [RCSB Protein Data Bank](https://www.rcsb.or
 
 ## $k$-nearest neighbours
 
-$k$-nearest neighbours ($k$-NN) is a non-parametric machine learning algorithm, which is also a type of lazy learning algorithm. The algorithm classifies data by assigning labels to observations based on the majority class amongst their "$k$-nearest neighbours". We construct models based on $k$-NN, and the related work can be found in the [random-forests](../main/random-forests/) folder.
+$k$-nearest neighbours ($k$-NN) is a non-parametric machine learning algorithm, which is also a type of lazy learning algorithm. The algorithm classifies data by assigning labels to observations based on the majority class amongst their "$k$-nearest neighbours". We construct models based on $k$-NN, and the related work can be found in the [k-nearest-neighbours](../main/k-nearest-neighbours/) folder.
 
 ## Random Forests
 
