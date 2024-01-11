@@ -4,6 +4,8 @@ Note: This repository and its contents support the coursework of the INM701 modu
 
 The output of the code for $k$-nearest neighbours and random forests is reproducible using the seed set in each notebook (which is 50). Unfortunately, we required a GPU in order to train the neural network models, which requires optimising millions of parameters. It is difficult to achieve reproducible results through a GPU, and so we use the 'tf.config.experimental.enable_op_determinism()' command from TensorFlow (tf). This command is experimental, and does not seem to work on older GPUs. An alternative approach would be repeatedly training models a number of times, and calculating the mean (and possibly the standard error) of the accuracies obtained.
 
+Library Versions: numpy == 1.24.3, sklearn == 1.2.2, tensorflow == 2.13.0
+
 ## Background
 
 Protein structure prediction is an important area of bioinformatics and computational biology. By understanding the 3-D structure of a protein from its amino acid sequence, researchers and scientists can understand the biological function of proteins and how proteins can interact with one another. In recent years, powerful tools such as DeepMind's AlphaFold have been able to predict over 200 million protein structures. We investigate the use of simple machine learning algorithms to predict the secondary structure of proteins.
