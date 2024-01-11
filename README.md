@@ -12,6 +12,8 @@ Specifically, we look at using (for classification) the:
 - Non-parametric random forests
 - Parametric neural networks
 
+The output of the code for $k$-nearest neighbours and random forests is reproducible using the seed set in each notebook (which is 50). Unfortunately, we required a GPU in order to train the neural network models, which requires optimising millions of parameters. It is difficult to achieve reproducible results through a GPU, and so we use the 'tf.config.experimental.enable_op_determinism()' command from TensorFlow (tf). This command is experimental, and does not seem to work on older GPUs. An alternative approach would be repeatedly training models a number of times, and calculating the mean (and possibly the standard error) of the accuracies obtained.
+
 ## Dataset
 
 The dataset used is a subset of the [RCSB Protein Data Bank](https://www.rcsb.org/), obtained jointly using various programs by [@alfrandom](https://www.kaggle.com/alfrandom) and [@kirkdco](https://www.kaggle.com/kirkdco). The dataset can be found [here](https://www.kaggle.com/datasets/kirkdco/protein-secondary-structure-2022?select=2022-08-03-ss.cleaned.csv). After some processing, we filtered the dataset by selecting proteins that had length in range [16, 100]. The filtered dataset containing the protein sequences for this study can be found [here](../main/datasets/prot-seq-filtered.csv).
