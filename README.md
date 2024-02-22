@@ -1,4 +1,4 @@
-# INM701: Protein Secondary Structure Prediction
+# Protein Secondary Structure Prediction
 
 Note: This repository and its contents support the coursework of the INM701 module at City, University of London.
 
